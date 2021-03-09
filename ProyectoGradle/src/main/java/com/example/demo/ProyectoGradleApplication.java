@@ -13,7 +13,6 @@ public class ProyectoGradleApplication {
 		SpringApplication.run(ProyectoGradleApplication.class, args);
 		System.out.print("Hola Mundo");
 	}
-
 	@GetMapping ("/hola")
 	public String hola() {
 		return "¡Hola Mundo!";
